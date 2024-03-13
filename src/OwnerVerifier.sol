@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.19;
 
-import "./libraries/BytesParsing.sol";
-import "./libraries/QueryResponse.sol";
+import "wormhole-solidity-sdk/libraries/BytesParsing.sol";
+import "wormhole-solidity-sdk/QueryResponse.sol";
 
 error InvalidProgramId();         // 0x5a03abb4
 error InvalidSeedsLength();       // 0xbbda9b77
